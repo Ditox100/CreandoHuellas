@@ -1,0 +1,117 @@
+html{
+    font-family: 'Noto Serif', serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-image: linear-gradient(to top, 	#9D8FB8 0% , #332B47 100%);
+}
+
+svg {
+    width: 80px;
+    color: #8D3DB4;
+}
+
+
+.container {
+    position: relative;
+    background-image: url(assets/Imagenes/Bauti.jpg);
+    background-size: cover;
+    height: 900px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+}
+
+.container-div {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-div h1  {
+    color: black;
+    font-size: 2.5rem;
+
+    
+}
+
+.container-div a {
+
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 2.0rem;
+    padding: 8px;
+    background-color: #F5B619;
+    border-radius: 1.5rem;
+}
+
+.container-div a:hover {
+    background-color: #6363f1;
+    transform: scale(1.1);
+}
+
+.container-div p{
+    font-size: 1.5rem;
+    color:black;
+}
+
+
+.container img {
+    max-width: 100%;
+    height: auto;
+    
+}
+
+
+.nav {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    
+}    
+
+.nav a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 1rem;
+
+}
+
+.nav a:hover {
+    color: white;
+    background-color:  #F5B619;
+    border-radius: 1.5rem;
+
+}
+
+form{
+    
+    padding: 2rem;
+    box-shadow: 0 0 5px rba(0, 0, 0, 0.1);
+    
+    
+}
+
+.form {
+    width: auto;
+    margin: 0 auto;
+
+}
+
+.campo {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
